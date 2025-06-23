@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: sayou2000/one-click-hugo-cms
   branch: main
   base_url: https://api.netlify.com
