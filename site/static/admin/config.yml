@@ -1,6 +1,11 @@
 backend:
   name: git-gateway
+  repo: sayou2000/one-click-hugo-cms
   branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: https://api.netlify.com/auth
+  site_domain: marvelous-trifle-121a4c.netlify.app
+  use_graphql: true
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
